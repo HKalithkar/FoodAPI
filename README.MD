@@ -1,3 +1,5 @@
+Note: Will add Edit and Save button
+
 To run
     npm install
     cd src
