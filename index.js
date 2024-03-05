@@ -48,6 +48,6 @@ async function del(name) {
         });
         location.reload();
     } catch (error) {
-        console.log("Not able to delete");
+        console.log("Unable to delete");
     }
 }
