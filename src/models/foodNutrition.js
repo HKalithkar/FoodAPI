@@ -26,12 +26,3 @@ const foodSchema = new mongoose.Schema({
 
 const foodNutritions = new mongoose.model("Food and Nutritions", foodSchema);
 module.exports = foodNutritions;
-
-// async function del(foodItem) {
-//     const res = await fetch(`http://localhost:3000/foodAPI/del/${foodItem}`, {
-//         method: "DELETE"
-//     });
-
-// }
-
-{/* <button onclick="del(${data.food_item_name})">Delete</button> */}
