@@ -27,7 +27,6 @@ app.get("/foodAPI", async (req, res) => {
 
 app.post("/newFood", async (req, res) => {
     try {
-        // const newData = new foodNutrition(req.body);
         const newData = await foodNutrition.create(req.body);
         res.status(200).send(newData);
     }
